@@ -1,17 +1,17 @@
-import './App.css';
-
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 import NavBar from './components/NavBar';
-import News from './components/News';
 
 export default class App extends Component {
   render() {
     return (
-      <div>
-        <NavBar/>
-        <News/> 
-      </div>
-    )
+      <Router>
+        <NavBar />
+      </Router>
+    );
   }
 }
+
+
+
 
