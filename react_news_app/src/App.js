@@ -34,7 +34,7 @@ const App = () => {
                   setProgress={setProgress} 
                   apiKey={API_KEY} 
                   pageSize={PAGE_SIZE} 
-                  country="in" 
+                  country="us" 
                   category={category} 
                 />
               } 
